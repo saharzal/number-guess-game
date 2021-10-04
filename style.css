@@ -1,0 +1,60 @@
+:root {
+    --primary-color:hsl(268, 44%, 61%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.wrapper {
+    background-color: #fafafa;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 640px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 540px;
+    }
+}
+.flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-col {
+    flex-direction: column;
+}
+.jc-c {
+    justify-content: center;
+}
+.ai-c {
+    align-items: center;
+}
+.p1 {
+    padding: 1rem;
+}
+/* header */
+.wrapper .header {
+    background-color: var(--primary-color);
+}
